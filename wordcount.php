@@ -45,10 +45,10 @@
 
 		// load all database data in an array
 		$result_set = mySQL_query(	"SELECT `text` 
-									FROM `bundestagsprotokolle` 
-									WHERE `speaker2` LIKE  '%$faction%'
-									AND (`type` = 'speech' OR `type` = 'poi');")
-									or die(mysql_error());
+						 FROM `bundestagsprotokolle` 
+						 WHERE `speaker2` LIKE  '%$faction%'
+						 AND (`type` = 'speech' OR `type` = 'poi');")
+						 or die(mysql_error());
 							
 		$array = mySQL_fetch_array($result_set, MYSQL_ASSOC);
 										
