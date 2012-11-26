@@ -25,7 +25,7 @@
 		ini_set ('error_reporting', E_ALL);
 
 		// connect to database
-		$db = mysql_connect('localhost', 'root', 'MBeq42oQ2dt?');
+		$db = mysql_connect('localhost', 'root', 'password');
 		if (!$db) {
     			die('Unable to connect: ' . mysql_error());
 			}
