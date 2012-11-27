@@ -1,34 +1,38 @@
 == Introduction ==
+
 The purpose of this Word Frequency Analysis is to serve as a preparation for the detection of political bias on Wikipedia in German. Therefore, parliamentary minutes from the German Bundestag are being indexed and words are counted to determine word frequencies with respect to the five factions. The basic question is: "Which terms are used by a certain factions significantly more or less?" An answer is given with output.csv. The numbers are compared based upon the calculated standard deviation. In the future, Wikipedia's articles will be scanned for the occurrences of words that are used by a certain faction more or less.
 
 == Overview ==
+
 What follows is a brief overview over the published resources. Everything is encoded in UTF-8. Opening the csv files with Open-/Libre Office is suggested.
 
 The data for analysis is:
 
-    * Parliamentary minutes from the German Bundestag over a period of ~1,5 years: speeches.csv [~200 MB] (currently not in repo)
-    * 5000 basic forms of most frequent terms from the minutes: terms.txt [~50 KB]
-    * Term, faction and number of occurrences of terms from the minutes: input.csv [~300 KB]
-    * List of factions in the German Bundestag: factions.txt [~50 B]
-    * Stopword list applied while indexing: stopwords.txt [~15 KB] (currently not in repo)
+* Parliamentary minutes from the German Bundestag over a period of ~1,5 years: speeches.csv [~200 MB] (currently not in repo)
+* 5000 basic forms of most frequent terms from the minutes: terms.txt [~50 KB]
+* Term, faction and number of occurrences of terms from the minutes: input.csv [~300 KB]
+* List of factions in the German Bundestag: factions.txt [~50 B]
+* Stopword list applied while indexing: stopwords.txt [~15 KB] (currently not in repo)
 
 The scripts for evaluation are:
 
-    * Check terms in corpus: political_bias_check.php
-    * Word frequency analysis: analysis.py
-    * Wordcount: wordcount.php
+* Check terms in corpus: political_bias_check.php
+* Word frequency analysis: analysis.py
+* Wordcount: wordcount.php
 
 The results can be found here:
 
-    * Output of the analysis: output.csv [~300 KB]
-    * Results of counting: results.csv [~600 KB]#
+* Output of the analysis: output.csv [~300 KB]
+* Results of counting: results.csv [~600 KB]#
 
 == Acknowledgments ==
-    * This work was largely inspired by the following research paper: Shane Greenstein and Feng Zhu (2012): "Is Wikipedia Biased?"
-    * Many thanks to the Open Knowledge Foundation Deutschland for crawling the minutes.
-    * Many thanks to Norman Rosner for helping us with the Solr setup for indexing.
+
+* This work was largely inspired by the following research paper: Shane Greenstein and Feng Zhu (2012): "Is Wikipedia Biased?"
+* Many thanks to the Open Knowledge Foundation Deutschland for crawling the minutes.
+* Many thanks to Norman Rosner for helping us with the Solr setup for indexing.
 
 == License ==
+
 "bundestag_political_bias" is published under a BSD License.
 Copyright © 2012, Wikimedia Deutschland (Gerrit Holz)
 All rights reserved.
@@ -54,7 +58,7 @@ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS 
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-Disclaimer
+=== Disclaimer ===
 
 NOTE: This software is not released as a product. It was written primarily for
 Wikimedia Deutschland's own use, and is made public as is, in the hope it may
