@@ -29,7 +29,7 @@ The results can be found here:
 
 * This work was largely inspired by the following research paper: Shane Greenstein and Feng Zhu (2012): "Is Wikipedia Biased?"
 * Many thanks to the Open Knowledge Foundation Deutschland for crawling the minutes.
-* Many thanks to Norman Rosner <http://rosner.io/> for helping us with the Solr setup for indexing.
+* Many thanks to [Norman Rosner](http://rosner.io/) for helping us with the Solr setup for indexing.
 
 ## License ##
 
