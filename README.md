@@ -4,26 +4,26 @@ The purpose of this word frequency analysis is to serve as a preparation for the
 
 ## Overview ##
 
-What follows is a brief overview over the published resources. Everything is encoded in UTF-8. Opening the csv files with Open-/Libre Office is suggested.
+What follows is a brief overview over the published resources. Everything is encoded in UTF-8. Opening the `csv` files with Open-/Libre Office is suggested.
 
 The data for analysis is:
 
-* Parliamentary minutes from the German Bundestag over a period of ~1,5 years (currently not in repo): speeches.csv [~200 MB]
-* 5000 basic forms of most frequent terms from the minutes: terms.txt [~50 KB]
-* Term, faction and number of occurrences of terms from the minutes: input.csv [~300 KB]
-* List of factions in the German Bundestag: factions.txt [~50 B]
-* Stopword list applied while indexing (currently not in repo): stopwords.txt [~15 KB]
+* Parliamentary minutes from the German Bundestag over a period of ~1,5 years (currently not in repo): `speeches.csv` [~200 MB]
+* 5000 basic forms of most frequent terms from the minutes: `terms.txt` [~50 KB]
+* Term, faction and number of occurrences of terms from the minutes: `input.csv` [~300 KB]
+* List of factions in the German Bundestag: `factions.txt` [~50 B]
+* Stopword list applied while indexing (currently not in repo): `stopwords.txt` [~15 KB]
 
 The scripts for evaluation are:
 
-* Check terms in corpus: political_bias_check.php
-* Word frequency analysis: analysis.py
-* Wordcount: wordcount.php
+* Check terms in corpus: `political_bias_check.php`
+* Word frequency analysis: `analysis.py`
+* Wordcount: `wordcount.php`
 
 The results can be found here:
 
-* Output of the analysis: output.csv [~300 KB]
-* Results of counting: results.csv [~600 KB]
+* Output of the analysis: `output.csv` [~300 KB]
+* Results of counting: `results.csv` [~600 KB]
 
 ## Acknowledgments ##
 
