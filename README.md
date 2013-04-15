@@ -1,6 +1,6 @@
 ## Introduction ##
 
-The purpose of this word frequency analysis is to serve as a preparation for the detection of political bias on Wikipedia in German. Therefore, parliamentary minutes from the German Bundestag are being indexed and words are counted to determine word frequencies with respect to the five factions. The basic question is: "Which terms are used by a certain factions significantly more or less?" An answer is given with output.csv. The numbers are compared based upon the calculated standard deviation. In the future, Wikipedia's articles will be scanned for the occurrences of words that are used by a certain faction more or less.
+The purpose of this word frequency analysis is to serve as a preparation for the detection of political bias on Wikipedia in German. Therefore, parliamentary minutes from the German Bundestag have been indexed and words have been counted to determine word frequencies with respect to the five factions. The basic question is: "Which terms are used by a certain faction significantly more or less?" An answer is given in `output.csv`. The numbers are compared based upon the calculated standard deviation. In the future, Wikipedia's articles will be scanned for the occurrences of words that are used by a certain faction more or less.
 
 ## Overview ##
 
